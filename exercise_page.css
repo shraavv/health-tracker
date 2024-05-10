@@ -1,0 +1,130 @@
+body{
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) );
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: center top 50px;
+    background-attachment: fixed;
+    padding-top: 100px;
+    background-image: url('exercises.png');
+    
+    }   
+
+header {
+    background-color: #424874; 
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    height: 50px;
+    position: fixed;
+    top: 0; 
+    width: 100%; 
+    z-index: 1000; 
+
+    }
+    
+header h2 {
+    margin-top:10px;
+    
+    }
+
+nav {
+
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+    position: fixed;
+    top: 50px; 
+    width: 100%; 
+    z-index: 1000; 
+    
+    }
+
+nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center; 
+    }
+
+nav ul li {
+    margin: 0 10px;
+    }
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    }
+
+nav ul li a:hover {
+    background-color: #555;
+    }
+
+form {
+        margin: 20px auto;
+        background-color: #424874;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        opacity: 0.9;
+        width: 90vh;
+    }
+    
+form label {
+        margin-bottom: 10px;
+        color:white;
+        font-size: 20px;
+    }
+    
+form input[type="text"] {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 100%;
+        box-sizing: border-box; 
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+.result-card {
+        margin: 20px auto;
+        background-color: #cccfe6;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        opacity: 0.9;
+        width: 90vh;
+    }
+
+.result-card h2{
+      text-align: center;
+    }
+
+#cardsContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px; 
+    }
+
+#submit-container {
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+#submit {
+        padding: 10px 20px;
+        background-color: #333;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+#submit:hover {
+        background-color: #555;
+    }
