@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Health Tracker</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="home_page.css">
+  <style>
+    .card {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .options {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .card {
+      flex: 0 0 calc(25% - 20px);
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header class="text-center">
+    <h2>Health Tracker</h2>
+  </header>
+  <br>
+  <br>
+  <div class="container">
+    <div class="card">
+      <h2>Welcome to your Health Tracker App! Your path to wellness starts here. Set goals, track progress, and achieve greatness. Let's make every step count towards a healthier you!</h2>
+    </div>
+  </div>
+  <br>
+  <div class="options">
+    <div class="card card-exercise" onclick="redirectToExercisePage()">
+      <img src="assets/exercises.png" alt="exercise" style="width:100%" class="card-image">
+      <div class="container-exercise">
+        <h4><b>Exercise</b></h4> 
+        <p>Exercise regularly to stay healthy and happy. Enter a muscle you would like to train and get detailed instructions!</p> 
+      </div>
+    </div>
+
+    <div class="card card-nutrition" onclick="redirectToNutritionPage()">
+      <img src="assets/nutrition.png" alt="nutrition" style="width:100%" class="card-image">
+      <div class="container-nutrition">
+        <h4><b>Nutrition</b></h4> 
+        <p>Eat well, feel well: priortize balanced nutrition for optimal health. Type in a food name to know your calories intake.</p> 
+      </div>
+    </div>
+
+    <div class="card card-calories" onclick="redirectToCaloriesPage()">
+      <img src="assets/calories.png" alt="calories" style="width:100%" class="card-image">
+      <div class="container-calories">
+        <h4><b>Calories</b></h4> 
+        <p>Calories count: balanced intake with healthy weight. Enter an exercise to know the calories burned!</p> 
+      </div>
+    </div>
+
+    <div class="card card-bmi" onclick="redirectToBmiPage()">
+      <img src="assets/bmi_bg.png" alt="bmi" style="width:100%" class="card-image">
+      <div class="container-bmi">
+        <h4><b>BMI</b></h4> 
+        <p>Check BMI: a simple tool for understanding your weight status.</p> 
+      </div>
+    </div>
+  </div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+  function redirectToExercisePage() {
+    window.location.href = "exercise_page.html";
+  }
+
+  function redirectToNutritionPage() {
+    window.location.href = "nutrition_page.html";
+  }
+
+  function redirectToCaloriesPage() {
+    window.location.href = "calories_page.html";
+  }
+
+  function redirectToBmiPage() {
+    window.location.href = "bmi_page.html";
+  }
+</script>
+</body>
+</html>
