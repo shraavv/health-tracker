@@ -128,4 +128,20 @@ header {
     height: 270px;
   }
 
+
+    .card {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .options {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .card {
+      flex: 0 0 calc(25% - 20px);
+      margin: 10px;
+    }
+
+
   
