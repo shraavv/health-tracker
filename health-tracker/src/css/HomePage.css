@@ -1,0 +1,53 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../assets/home.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+  }
+  
+  .navbar {
+    background-color: #424874; 
+    padding: 5px 0; 
+    text-align: center; 
+  }
+  
+  .navbar h1 {
+    margin: 0; 
+    color: white; 
+  }
+  
+  .options {
+    display: flex;
+    flex-wrap: nowrap; 
+  }
+  
+  .card {
+    flex: 0 0 calc(21.5% - 10px);
+    margin: 20px;
+    background-color: #e3f2fd; 
+    border: 1px solid #90caf9; 
+    border-radius: 5px; 
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .container {
+    width: 95%;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .card-image {
+    width: 100%;
+  }
+  
